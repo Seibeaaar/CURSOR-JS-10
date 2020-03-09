@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.key {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+kbd {
+  font-size: 30px;
+}
+
+.key-sound {
+  display: block;
+  color: yellow;
+}

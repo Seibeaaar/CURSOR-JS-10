@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="key" data-key="65">
+      <kbd>A</kbd>
+      <span class="key-sound">Bells</span>
+    </div>
+    <div class="key" data-key="83">
+      <kbd>S</kbd>
+      <span class="key-sound">Champagne</span>
+    </div>
+    <div class="key" data-key="68">
+      <kbd>D</kbd>
+      <span class="key-sound">Drums</span>
+    </div>
+    <div class="key" data-key="70">
+      <kbd>F</kbd>
+      <span class="key-sound">Gong</span>
+    </div>
+    <div class="key" data-key="71">
+      <kbd>G</kbd>
+      <span class="key-sound">Guitar</span>
+    </div>
+    <div class="key" data-key="72">
+      <kbd>H</kbd>
+      <span class="key-sound">Organ</span>
+    </div>
+  </div>
+  <audio src="./audio/bells.mp3" data-key="65"></audio>
+  <audio src="./audio/champagne.mp3" data-key="83"></audio>
+  <audio src="./audio/drums.mp3" data-key="68"></audio>
+  <audio src="./audio/gong.mp3" data-key="70"></audio>
+  <audio src="./audio/guitar.mp3" data-key="71"></audio>
+  <audio src="./audio/organ.mp3" data-key="72"></audio>
+  <script src="./main.js"></script>  
+</body>
+</html>
